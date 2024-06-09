@@ -1,0 +1,192 @@
+/* Global css  */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bebas Neue", sans-serif;
+}
+p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+}
+section{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    padding: 5px;
+    font-weight: 700;
+    background-color: #eaca1c;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+
+}
+img{
+    max-width: 98%;
+}
+/* header part is here */
+header{
+    background-color: #eaca1c;
+}
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+}
+.menu a{
+    color: black;
+    font-weight: bold;
+}
+.menu li{
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 10px 7px;
+
+
+}
+#hero{
+    margin-bottom: -200px;
+}
+.hero-writing{
+    padding-top: 20px;
+    text-align: center;
+}
+.hero-writing h1{
+    font-size: 50px;
+}
+.hero-writing a button{
+    margin-top: 20px;
+}
+
+#floating-box{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    box-shadow: 10px 19px 30px rgba(0, 0, 0, 0.479);
+}
+.floating-box-part{
+
+}
+.floating-image-part{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.floating-image-part img{
+    width: 40%;
+    margin: auto;
+
+}
+
+/* happy section is here */
+#happy{
+    background-color: #eaca1c;
+    padding: 300px 0px 50px;
+}
+#happy button{
+    background-color: black;
+    color: white;
+    margin: 20px 0px;
+}
+/* happiness section */
+#happiness-box{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.happiness-img-part{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+
+}
+happiness-writing-box button{
+   margin-top: 20px;  
+} 
+
+/* aboutus section */
+
+#about-us{
+    background-color: black;
+}
+
+.aboutus-writing-part h1{
+    font-size: 30px;
+    color: yellow;
+}
+.aboutus-writing-part p {
+    font-weight: 200;
+    color: white;
+}
+
+/* team section */
+
+.team-writing {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.team-writing h1 {
+    font-size: 50px;
+}
+
+.team-writing a button {
+    margin-top: 20px;
+}
+
+
+/* method section */
+#method{
+    background-color: #e5e5e5;
+}
+.method-writing {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.method-writing h1 {
+    font-size: 50px;
+}
+
+.method-writing a button {
+    margin-top: 20px;
+}
+/* newsletter section */
+/* contact section */
+#contact{
+    background-color: #eaca1c;
+}
+/* footer section */

@@ -1,0 +1,185 @@
+/* global css */
+.container{
+    max-width: 1140px;
+}
+
+p{
+    font-weight: 400;
+}
+
+
+
+
+
+
+header {
+    background-color: #ea4c1c;
+}
+/* hero section */
+.hero-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.hero-img{
+    flex-basis: 500px;
+
+}
+.hero-writing{
+    text-align: start;
+    flex-basis: 500px;
+
+}
+.hero-writing h1{
+    font-size: 80px;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+/* floating-box section */
+#floating-box {
+    width: 1000px;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+
+.floating-box-part {
+    width: 48%;
+    text-align: start;
+
+}
+.floating-box-part h1{
+    font-size: 50px;
+    color: yellow;
+}
+.floating-box-part button{
+    margin-top: 10px;
+}
+
+.floating-image-part {
+    width: 48%;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+#hero{
+    margin-bottom: -100px;
+}
+/* happy section */
+.happy-container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .writing-part{
+        flex-basis: 300px;
+        text-align: start;
+    }
+    .img-part{
+        flex-basis: 500px;
+        margin-left: 400px;
+    }
+    h1{
+     font-size: 50px;
+    }
+    /* happiness section */
+        #happiness-box {
+            width: 1000px;
+            height: 100%;
+            padding: 50px;
+            display: flex;
+            flex-flow: row wrap;
+            
+        }
+    
+        .happiness-img-part {
+            width: 48%;
+            display: flex;
+            flex-flow: row wrap;
+    
+        }
+        .happiness-writing-part {
+            width: 48%;
+            display: flex;
+            flex-flow: row wrap;
+            margin-bottom: 20px;
+    
+        }
+        .happiness-writing-box h1 {
+                    font-size: 50px;
+                    color: yellow;
+                }
+        
+        .happiness-writing-box button {
+                    margin-top: 10px;
+                }
+                happiness-image-box {
+                    margin-left: 50px;;
+                }
+    /* aboutus section */
+
+
+    /* team section */
+        .team-container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+    
+    
+        }
+    
+        .team-img {
+            flex-basis: 500px;
+    
+        }
+    
+        .team-writing {
+            text-align: start;
+            flex-basis: 500px;
+    
+        }
+    
+        .team-writing h1 {
+            font-size: 80px;
+            line-height: 70px;
+            margin-bottom: 10px;
+        }
+
+    /* method section */
+        .method-container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+    
+    
+        }
+    
+        .method-img {
+            flex-basis: 500px;
+    
+        }
+    
+        .method-writing {
+            text-align: start;
+            flex-basis: 500px;
+    
+        }
+    
+        .method-writing h1 {
+            font-size: 80px;
+            line-height: 70px;
+            margin-bottom: 10px;
+        }
+        /* newsletter section */
+        /* contact section */
+        /* footer section */
